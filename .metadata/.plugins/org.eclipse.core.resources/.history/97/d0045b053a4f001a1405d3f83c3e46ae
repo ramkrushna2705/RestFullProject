@@ -1,0 +1,16 @@
+package com.ram.service;
+
+import org.springframework.stereotype.Service;
+
+import lombok.Data;
+
+@Data
+@Service
+public class PersonDetails {
+
+	private Integer personId;
+	private String personName;
+	private String personAddress;
+	private double personSalary;
+	
+}

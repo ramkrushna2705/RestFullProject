@@ -1,0 +1,10 @@
+package com.ram.service;
+
+@
+public class PersonDetails {
+
+	private Integer personId;
+	private String personName;
+	private String personAddress;
+	private double personSalary;
+}

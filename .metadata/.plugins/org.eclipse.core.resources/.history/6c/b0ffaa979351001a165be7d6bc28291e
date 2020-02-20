@@ -1,0 +1,14 @@
+package com.ram.model;
+
+
+import lombok.Data;
+
+
+@Data
+public class Contact {
+
+	private Integer contactId;
+	private String contactName;
+	private Long contactNumber;
+
+}

@@ -1,0 +1,16 @@
+package com.ram.model;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@XmlRootElement
+public class Contact {
+
+	private Integer contactId;
+	private String contactName;
+	private Long contactNumber;
+
+}
